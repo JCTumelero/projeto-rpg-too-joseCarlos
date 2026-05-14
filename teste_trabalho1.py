@@ -1,3 +1,8 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+#asiciona o diretório raiz do projeto ao sys.path para permitir a importação dos módulos
+
 from missao_combate import MissaoCombate
 from missao_coleta import MissaoColeta
 from missao_exploracao import MissaoExploracao 
